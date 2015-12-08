@@ -244,6 +244,8 @@ public class ImageViewer
         filterList.add(new LighterFilter("Lighter"));
         filterList.add(new ThresholdFilter("Threshold"));
         filterList.add(new FishEyeFilter("Fish Eye"));
+        //filterList.add(new SmoothFilter("Smooth"));
+        filterList.add(new InvertFilter("Invert"));
        
         return filterList;
     }
